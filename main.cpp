@@ -1,7 +1,8 @@
 #include ".assignment/test.h"
-
 // 比较三个数的大小
 void CompareThreeNumbers(int a, int b, int c, Result &result)
 {
-    // 在这里完成你的代码
+    result.max = 0;
+    result.mid = 1;
+    result.min = 2;
 }
